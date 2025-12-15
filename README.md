@@ -5,8 +5,7 @@ This project implements and compares various Deep Learning architectures (ResNet
 ## 📌 Project Overview
 
 **Goal:** Build an accurate image classifier for weather conditions.  
-**Dataset:** 5-Class Weather Status Image Classification from Kaggle.  
-**Approach:** Transfer Learning using pre-trained weights (ImageNet) with data augmentation and fine-tuning strategies.  
+**Dataset:** 5-Class Weather Status Image Classification from Kaggle and colab.  
 
 ## 📂 Dataset Details
 
@@ -35,9 +34,5 @@ The project explores multiple architectures:
 ## ⚙️ Methodology
 
 **Data Augmentation:** To tackle class imbalance and improve generalization, techniques such as Random Horizontal Flip, Rotation, Color Jitter (Brightness/Contrast), and Random Crops were applied.
-
-**Transfer Learning:**
-- Stage 1: Freeze the feature extractor backbone (e.g., ResNet) and train only the custom classification head.
-- Stage 2: "Fine-tune" by unfreezing the last convolutional block (e.g., layer4) and retraining with a lower learning rate (1e-4) to adapt features to the weather domain.
 
 **Evaluation:** Models are evaluated using Accuracy, Confusion Matrices, and Classification Reports (Precision, Recall, F1-Score).
