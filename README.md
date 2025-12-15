@@ -25,7 +25,7 @@ Pre-processing includes resizing (224x224), normalization, and data splitting (T
 
 The project explores multiple architectures:
 
-### ResNet-18 (PyTorch)
+### ResNet (PyTorch)
 
 ### VGG-19 (TensorFlow/Keras)
 
@@ -38,7 +38,7 @@ The project explores multiple architectures:
 **Data Augmentation:** To tackle class imbalance and improve generalization, techniques such as Random Horizontal Flip, Rotation, Color Jitter (Brightness/Contrast), and Random Crops were applied.
 
 **Transfer Learning:**
-- Stage 1: Freeze the feature extractor backbone (e.g., ResNet50) and train only the custom classification head.
+- Stage 1: Freeze the feature extractor backbone (e.g., ResNet) and train only the custom classification head.
 - Stage 2: "Fine-tune" by unfreezing the last convolutional block (e.g., layer4) and retraining with a lower learning rate (1e-4) to adapt features to the weather domain.
 
 **Evaluation:** Models are evaluated using Accuracy, Confusion Matrices, and Classification Reports (Precision, Recall, F1-Score).
