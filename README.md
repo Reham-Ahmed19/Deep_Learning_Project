@@ -25,18 +25,13 @@ Pre-processing includes resizing (224x224), normalization, and data splitting (T
 
 The project explores multiple architectures:
 
-### ResNet50 (PyTorch)
-Strategy: Weights pre-trained on ImageNet.  
-Training: Feature extraction (frozen backbone) followed by fine-tuning layer4 and the fully connected head.  
-Optimizer: Adam with learning rate scheduling.  
-Performance: Achieved ~81% validation accuracy (initial training).
+### ResNet-18 (PyTorch)
 
-### VGG19 (TensorFlow/Keras)
-Deep CNN architecture known for its simplicity and depth (19 layers).  
-Used for baseline comparison.
+### VGG-19 (TensorFlow/Keras)
 
-### InceptionV1 (GoogLeNet) & MobileNet
-Explored for efficiency and multi-scale feature extraction.
+### Inception-V1 (GoogLeNet)
+
+### MobileNet (TensorFlow/Keras)
 
 ## ⚙️ Methodology
 
