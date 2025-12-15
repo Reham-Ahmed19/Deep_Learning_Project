@@ -7,7 +7,6 @@ This project implements and compares various Deep Learning architectures (ResNet
 **Goal:** Build an accurate image classifier for weather conditions.  
 **Dataset:** 5-Class Weather Status Image Classification from Kaggle.  
 **Approach:** Transfer Learning using pre-trained weights (ImageNet) with data augmentation and fine-tuning strategies.  
-**Frameworks:** PyTorch (ResNet50) and TensorFlow/Keras (VGG19, InceptionV1).
 
 ## 📂 Dataset Details
 
