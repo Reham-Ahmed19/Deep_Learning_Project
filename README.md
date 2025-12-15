@@ -1,6 +1,6 @@
 # Weather Image Classification with Deep Learning
 
-This project implements and compares various Deep Learning architectures (ResNet50, VGG19, InceptionV1, MobileNet) to classify weather conditions from images. Using transfer learning, the models are trained to distinguish between five different weather types: Cloudy, Foggy, Rainy, Snowy, and Sunny.
+This project implements and compares various Deep Learning architectures (ResNet, VGG19, InceptionV1, MobileNet) to classify weather conditions from images. Using transfer learning, the models are trained to distinguish between five different weather types: Cloudy, Foggy, Rainy, Snowy, and Sunny.
 
 ## 📌 Project Overview
 
